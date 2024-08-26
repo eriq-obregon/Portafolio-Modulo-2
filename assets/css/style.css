@@ -59,3 +59,14 @@ header{
     color: white;
     min-width: 130px;
 }
+footer{
+    background-color: #3B0061; /* Color morado aún más oscuro */
+    padding: 1px 0;
+    margin-top: 20px;
+}
+#footer{
+    margin: 0;
+    font-size: 14px;
+    color: #E6E6FA;
+    text-align: center;
+}
