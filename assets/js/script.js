@@ -51,19 +51,19 @@ $(document).ready(function () {
         mostrarParrafo(estado);
     });
 
-    $('#btnproject').click(function(){
+    $('#btnproject').click(function () {
         Swal.fire({
             title: "Estos son mis dos proyectos importantes hasta el momento:",
             showDenyButton: true,
             confirmButtonText: "Proyecto 1",
             denyButtonText: `Proyecto 2`
-          }).then((result) => {
+        }).then((result) => {
             if (result.isConfirmed) {
-                window.open('https://www.google.com', '_blank');
+                window.open('https://eriq-obregon.github.io/botcamp-js-m2-S9/', '_blank');
             } else if (result.isDenied) {
-                window.open('https://www.github.com', '_blank');
+                window.open('https://eriq-obregon.github.io/bootcamp-js-M2-S8/', '_blank');
             }
-          });
+        });
     })
     $('#tlf').click(function () {
         Swal.fire({
@@ -137,7 +137,7 @@ $(document).ready(function () {
 
     $('#formularioConModal').html(modalHTML);
 
-    $('#form').click(function(){
+    $('#form').click(function () {
         $('#exampleModal').modal('show');
     });
 
